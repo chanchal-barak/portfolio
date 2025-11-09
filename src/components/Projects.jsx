@@ -1,32 +1,34 @@
 import { motion } from "framer-motion";
+import { Github } from "lucide-react";
 
 const projects = [
   {
-    title: "Portfolio Website",
-    stack: "React.js, Tailwind CSS, Framer Motion",
-    desc: "Developed a personal portfolio to showcase my skills and projects. Implemented smooth animations, responsive layout, and modern UI using Tailwind CSS and Framer Motion.",
-  },
-  {
     title: "Issue Tracker App",
     stack: "MERN Stack (MongoDB, Express.js, React, Node.js)",
-    desc: "Built a full-stack issue tracking platform that allows users to report, update, and resolve issues collaboratively. Added authentication, filters, and real-time updates.",
+    desc: "A collaborative issue tracker where users can create, update, and resolve issues. Added secure backend APIs and MongoDB Atlas integration.",
+    link: "https://github.com/chanchal-barak/MERIAWAJ", // your repo link
   },
   {
-    title: "Blog Web App",
-    stack: "MERN Stack",
-    desc: "Developed a blogging platform with JWT authentication, rich text editing, and MongoDB Atlas integration. Deployed with a responsive, clean interface.",
+    title: "Portfolio Website",
+    stack: "React.js, Tailwind CSS, Framer Motion",
+    desc: "Designed and developed a personal portfolio to showcase my projects and skills with smooth animations and modern UI.",
+    link: "https://github.com/chanchal-barak/portfolio", // your repo link
   },
   {
     title: "Weather Dashboard",
     stack: "React, OpenWeather API",
-    desc: "A simple weather app fetching real-time weather data using REST APIs. Includes animated backgrounds depending on temperature and conditions.",
+    desc: "Built a weather app that fetches real-time data from OpenWeather API and shows dynamic backgrounds based on weather conditions.",
+    link: "https://github.com/chanchal-barak/weather-dashboard", // your repo link
   },
 ];
 
 export default function Projects() {
   return (
-    <section id="projects" className="py-24 px-6 max-w-5xl mx-auto section bg-[#111]">
-      {/* Section Header */}
+    <section
+      id="projects"
+      className="py-24 px-6 max-w-5xl mx-auto section bg-[#111] relative overflow-hidden"
+    >
+      {/* Title */}
       <motion.h2
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -37,7 +39,7 @@ export default function Projects() {
         Projects
       </motion.h2>
 
-      {/* Project Grid */}
+      {/* Project Cards */}
       <div className="grid md:grid-cols-2 gap-10">
         {projects.map((p, i) => (
           <motion.div
@@ -47,15 +49,15 @@ export default function Projects() {
             viewport={{ once: true }}
             transition={{
               duration: 0.6,
-              delay: i * 0.2, // stagger each card
+              delay: i * 0.2,
               type: "spring",
               stiffness: 70,
             }}
             whileHover={{
               scale: 1.03,
-              boxShadow: "0 0 25px rgba(59,130,246,0.2)",
+              boxShadow: "0 0 25px rgba(59,130,246,0.3)",
             }}
-            className="bg-[#1a1a1a] p-6 rounded-2xl border border-gray-800 hover:border-blue-500/50 transition-all"
+            className="bg-[#1a1a1a] p-6 rounded-2xl border border-gray-800 hover:border-blue-500/50 transition-all group"
           >
             <h3 className="text-xl font-semibold text-blue-400 mb-2">
               {p.title}
@@ -64,11 +66,23 @@ export default function Projects() {
               Tech Stack: {p.stack}
             </p>
             <p className="text-gray-300 leading-relaxed">{p.desc}</p>
+
+            {/* View Code button */}
+            <motion.a
+              href={p.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              whileHover={{ scale: 1.05 }}
+              className="mt-5 inline-flex items-center gap-2 bg-gradient-to-r from-blue-600 to-purple-600 text-white px-4 py-2 rounded-full text-sm font-medium shadow-lg hover:shadow-[0_0_20px_rgba(147,51,234,0.5)] transition"
+            >
+              <Github size={18} />
+              View Code
+            </motion.a>
           </motion.div>
         ))}
       </div>
 
-      {/* Bottom Line Animation */}
+      {/* Bottom gradient line */}
       <motion.div
         initial={{ scaleX: 0 }}
         whileInView={{ scaleX: 1 }}
