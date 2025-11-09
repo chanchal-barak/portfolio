@@ -1,18 +1,41 @@
-# React + Vite
+# 🌐 Chanchal Barak — Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal developer portfolio built with **React.js**, **Tailwind CSS**, and **Framer Motion**.  
+This portfolio showcases my skills, projects, and experiences as a **Software Engineer** passionate about building clean, efficient, and modern web applications.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
 
-## React Compiler
+🔗 **Portfolio URL:** [https://chanchal-portfolio.vercel.app](https://chanchal-portfolio.vercel.app)
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+*(Hosted on Vercel — updates automatically on every GitHub push)*
 
-Note: This will impact Vite dev & build performances.
+---
 
-## Expanding the ESLint configuration
+## 🧰 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+| Category | Tools / Frameworks |
+|-----------|--------------------|
+| **Frontend** | React.js, Vite, Tailwind CSS |
+| **Animations** | Framer Motion |
+| **UI Components** | Lucide React, Radix UI Tooltip |
+| **Version Control** | Git, GitHub |
+| **Deployment** | Vercel |
+
+---
+
+## 💻 Features
+
+✨ Fully responsive dark-themed design  
+🎞️ Smooth animations powered by **Framer Motion**  
+⚡ Interactive Skills section with tooltips & icons  
+🧠 Animated Projects, Coursework, and Contact sections  
+🔗 Dynamic GitHub repo links for each project  
+📸 Custom hero image & gradient effects  
+🌈 Modern UI with gradient hover and glow transitions  
+
+---
+
+## 📂 Project Structure
+
