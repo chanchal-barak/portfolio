@@ -1,15 +1,17 @@
 # 🌐 Chanchal Barak — Portfolio
 
-Welcome to my personal developer portfolio built with **React.js**, **Tailwind CSS**, and **Framer Motion**.  
-This portfolio showcases my skills, projects, and experiences as a **Software Engineer** passionate about building clean, efficient, and modern web applications.
+Welcome to my personal developer portfolio built with **React.js**, **Vite**, **Tailwind CSS**, and **Framer Motion**.  
+This site showcases my projects, skills, and journey as a **Software Engineer** who loves crafting efficient and visually stunning web applications.
 
 ---
 
 ## 🚀 Live Demo
 
-🔗 **Portfolio URL:** [https://chanchal-portfolio.vercel.app](https://chanchal-portfolio.vercel.app)
+🔗 **[View Portfolio](https://portfolio-chi-eight-74.vercel.app)**  
 
-*(Hosted on Vercel — updates automatically on every GitHub push)*
+[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-blue?style=for-the-badge&logo=vercel)](https://portfolio-chi-eight-74.vercel.app)
+
+*(Hosted on Vercel — automatically redeploys on every GitHub push.)*
 
 ---
 
@@ -19,23 +21,22 @@ This portfolio showcases my skills, projects, and experiences as a **Software En
 |-----------|--------------------|
 | **Frontend** | React.js, Vite, Tailwind CSS |
 | **Animations** | Framer Motion |
-| **UI Components** | Lucide React, Radix UI Tooltip |
-| **Version Control** | Git, GitHub |
+| **Icons / UI** | Lucide React, Radix UI Tooltip |
+| **Version Control** | Git & GitHub |
 | **Deployment** | Vercel |
 
 ---
 
 ## 💻 Features
 
-✨ Fully responsive dark-themed design  
-🎞️ Smooth animations powered by **Framer Motion**  
-⚡ Interactive Skills section with tooltips & icons  
-🧠 Animated Projects, Coursework, and Contact sections  
-🔗 Dynamic GitHub repo links for each project  
-📸 Custom hero image & gradient effects  
-🌈 Modern UI with gradient hover and glow transitions  
+✨ Fully responsive, modern UI  
+🎞️ Smooth animations with Framer Motion  
+💡 Dynamic project list with GitHub links  
+📸 Profile image + gradient glowing hero section  
+💬 Interactive contact section  
+🧠 Auto-updating Vercel deployment  
 
 ---
 
-## 📂 Project Structure
+## 📂 Folder Structure
 
