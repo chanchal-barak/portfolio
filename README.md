@@ -1,17 +1,17 @@
 # 🌐 Chanchal Barak — Portfolio
 
 Welcome to my personal developer portfolio built with **React.js**, **Vite**, **Tailwind CSS**, and **Framer Motion**.  
-This site showcases my projects, skills, and journey as a **Software Engineer** who loves crafting efficient and visually stunning web applications.
+This site showcases my projects, skills, and journey as a **Software Engineer** passionate about building clean, efficient, and beautiful web applications.
 
 ---
 
 ## 🚀 Live Demo
 
-🔗 **[View Portfolio](https://portfolio-chi-eight-74.vercel.app)**  
+🔗 **[Visit Portfolio → chanchalbarak.vercel.app](https://chanchalbarak.vercel.app)**  
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-blue?style=for-the-badge&logo=vercel)](https://portfolio-chi-eight-74.vercel.app)
+[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-blue?style=for-the-badge&logo=vercel)](https://chanchalbarak.vercel.app)
 
-*(Hosted on Vercel — automatically redeploys on every GitHub push.)*
+*(Hosted on Vercel — automatically redeploys on every GitHub push)*
 
 ---
 
@@ -23,18 +23,18 @@ This site showcases my projects, skills, and journey as a **Software Engineer** 
 | **Animations** | Framer Motion |
 | **Icons / UI** | Lucide React, Radix UI Tooltip |
 | **Version Control** | Git & GitHub |
-| **Deployment** | Vercel |
+| **Deployment** | Vercel (Free Hobby Plan) |
 
 ---
 
 ## 💻 Features
 
-✨ Fully responsive, modern UI  
-🎞️ Smooth animations with Framer Motion  
-💡 Dynamic project list with GitHub links  
-📸 Profile image + gradient glowing hero section  
+✨ Fully responsive, modern dark theme  
+🎞️ Smooth scroll + section animations  
+🧠 Dynamic project list with GitHub repo links  
+📸 Custom photo hero with glowing gradient  
 💬 Interactive contact section  
-🧠 Auto-updating Vercel deployment  
+🌈 Automatic redeploys on each Git push  
 
 ---
 
